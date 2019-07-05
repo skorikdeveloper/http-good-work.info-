@@ -1,0 +1,381 @@
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1366px) {
+    #answers-page .first-block__country .img-wrapper {
+        right: 0;
+    }
+    #contact-page .first-block__country .img-wrapper {
+        right: 0;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header ul li, footer ul li {
+        margin-right: 15px;
+    }
+
+    .callback-block .text-p {
+        font-size: 17px;
+    }
+    .callback-block input:not([type=submit]) {
+        width: 200px;
+    }
+    .callback-block input[type=submit] {
+        width: 175px;
+    }
+    .plan-block .steps-wrapper {
+        padding: 0;
+    }
+    .plan-block .steps-wrapper-2 {
+        padding: 0;
+    }
+    .plan-block .wrap .img-wrapper {
+        max-width: 90%;
+    }
+    .plan-block .step p {
+        width: 150px;
+    }
+    .plan-block .step {
+        margin-right: 60px;
+    }
+    .plan-block .step-5 {
+        margin-top: 115px;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .plan-block .step-5 p {
+        left: -125px;
+    }
+    .first-block__country .img-wrapper {
+        display: none;
+    }
+    #answers-page .answers-content img {
+        display: none;
+    }
+    #answers-page .float-left {
+        width: 100%;
+    }
+    #contact-page .address {
+        margin-bottom:55px;
+    }
+    #contact-page .city {
+        margin-bottom: 20px;
+    }
+    #contact-page .contact_form_block img {
+        height: auto;
+    }
+    #country-work-page .wrapper_descr_country {
+        padding-left: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .drawer-wrapper {
+        display: block;
+    }
+    .desktop-menu {
+        display: none;
+    }
+    #main-page .first_block_carousel {
+        display: none;
+    }
+    #main-page .first-block {
+        text-align: center;
+    }
+    #main-page .first-block .first_block_text {
+        margin: 0 auto;
+    }
+    .employment {
+        padding: 20px 0 45px 0;
+    }
+    .employment h2 {
+        margin: 10px 0 25px 0;
+    }
+    .plan-block .step p {
+        width: auto;
+        text-align: center;
+        margin: 15px auto;
+    }
+    .plan-block .steps-wrapper {
+        flex-direction: column;
+    }
+    .plan-block .step {
+        margin: 0;
+    }
+    .plan-block .wrap .img-wrapper {
+        display: none;
+    }
+    .plan-block .step-5 p {
+        position: relative;
+        left: auto;
+    }
+    .plan-block .steps-wrapper-2 {
+        flex-direction: column-reverse;
+    }
+    .plan-block {
+        background: #F7F7F8;
+        background-image: none!important;
+        padding: 20px 0;
+    }
+    .callback-block .use-floating-validation-tip span.wpcf7-not-valid-tip {
+        width: 200px;
+    }
+
+    #country-work-page .wrapper_descr_country {
+        margin-top: 20px;
+        height: 200px;
+        padding: 0;
+    }
+    #country-work-page .ul-wrap {
+        float: left;
+        position: relative;
+        width: 50%;
+        padding-right: 5%;
+    }
+    #country-work-page .descr {
+        float: right;
+        margin: 0;
+        width: 50%;
+        padding-left: 5%;
+    }
+    #country-work-page .ul-wrap:after {
+        position: absolute;
+        content: '';
+        right: 0;
+        width: 2px;
+        height: 100px;
+        background: #A6A6A6;
+        top: 0;
+    }
+    #country-work-page .country_document:after {
+        display: none;
+    }
+    #country-work-page .open-modal {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        max-width: 300px;
+    }
+    #country-work-page .wrapper_title_country img {
+        height: auto;
+    }
+    #partners-page form {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #partners-page .partners_form_block {
+        text-align: center;
+    }
+    #contact-page .contact_form_block img {
+        display: none;
+    }
+    #contact-page .contacts .wrapper-address {
+        width: 50%;
+        float: left;
+    }
+    #contact-page .contacts ul {
+        width: 50%;
+        float: right;
+    }
+    #contact-page .contacts ul li:last-child {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    #contact-page form {
+        text-align: center;
+    }
+    #contact-page .address {
+        margin-bottom: 0;
+    }
+    #contact-page .contacts ul {
+        margin-bottom: 0;
+    }
+    #contact-page .contacts {
+        padding: 0;
+        margin-top: 20px;
+    }
+    #contact-page .address:after {
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    .country_slider .owl-carousel .owl-nav {
+        display: none;
+    }
+    .employment {
+        background-image: none!important;
+        background: #FD001B;
+    }
+    footer {
+        text-align: center;
+    }
+    footer ul li {
+        margin: 0 0 4px 0;
+        display: block;
+    }
+    footer ul {
+        max-width: 200px;
+        margin: 0 auto;
+        text-align: left;
+        padding: 35px 0 0 0;
+    }
+    .footer ul li a {
+        font-size: 16px;
+    }
+    .footer .header-soc-menu {
+        padding: 0;
+    }
+    .footer .copyright {
+        font-size: 16px;
+    }
+    .callback-block input[type=submit] {
+        width: 300px!important;
+        height: 40px;
+        border-radius: 0;
+    }
+    .callback-block input:not([type=submit]) {
+        width: 300px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    .callback-block form {
+        flex-direction: column;
+        text-align: center;
+        line-height: normal;
+    }
+    .callback-block a {
+        float: none;
+        margin: 0;
+    }
+    .callback-block .col-md-4 {
+        text-align: center;
+    }
+    .callback-block .use-floating-validation-tip span.wpcf7-not-valid-tip {
+        width: 300px;
+        height: 35px;
+        padding: 0;
+    }
+    .modal .modal-dialog {
+        max-width: 90%;
+    }
+    #order.modal form input:not([type=submit]) {
+        max-width: 100%;
+    }
+    #country-work-page .list-country-work .title_country {
+        font-size: 26px;
+        top: 38%;
+        padding: 15px 0;
+    }
+    .first-block__country .first_block_header {
+        font-size: 36px;
+    }
+    .partners_slider .owl-carousel .owl-nav {
+        display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .modal .modal-header h2 {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+    .modal .use-floating-validation-tip span.wpcf7-not-valid-tip {
+        max-width: 150px;
+        right: 0;
+        top: -15px;
+    }
+    #thanks.modal .modal-body p {
+        font-size: 18px;
+    }
+    .callback-block input:not([type=submit]) {
+        max-width:100%;
+    }
+    .callback-block .use-floating-validation-tip span.wpcf7-not-valid-tip {
+        max-width:100%;
+    }
+    .callback-block input[type=submit] {
+        max-width: 100%!important;
+    }
+    .first-block__country .first_block_header {
+        padding: 30px 0;
+        margin: 0;
+    }
+    .first-block__country .logo {
+       float: none;
+    }
+    .first-block__country {
+        text-align: center;
+    }
+    #country-work-page .list-country-work .title_country {
+        top: 0;
+        height: 100%;
+        padding: 45px 0;
+    }
+    #country-work-page .wrapper_descr_country {
+        height: 300px;
+    }
+    #contact-page .contacts .wrapper-address {
+        width: 100%;
+        float: none;
+    }
+    #contact-page .contacts ul {
+        width: 100%;
+        float: none;
+        margin-top: 15px;
+    }
+    #contact-page .contacts ul li a {
+        font-size: 15px;
+    }
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+    /**/
+
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+    /**/
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    /**/
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    /**/
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    /**/
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    /**/
+
+}
+
+

@@ -1,0 +1,51 @@
+/*
+Theme Name: Good Work
+Version: 1.0
+Author: Skorik Dmitriy
+Author URL: https://skorikdev.icu/
+*/
+/* basics */
+html {height:100%; width:100%;}
+body {
+	font-size: 12px;
+	line-height:16px;
+	color: #262626;
+	margin:0;
+    padding:0;
+	position:relative;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-style: normal;
+	font-weight: bold;
+	line-height:30px;
+}
+h1 {
+	font-size: 16px;
+}
+h2 {
+	font-size: 15px;
+}
+h3 {
+	font-size: 14px;
+}
+p, ul, ol {
+	margin: 25px 0;
+}
+strong {
+	color:#111;
+}
+img {
+    border:0;
+}
+a:link, a:visited  {
+	text-decoration:underline;
+	color: #262626;
+}
+a:hover {
+	text-decoration:none;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
